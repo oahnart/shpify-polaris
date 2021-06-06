@@ -1,0 +1,28 @@
+// .FormUser {
+  table {
+    margin: 0 auto;
+    padding: 30px 0;
+  }
+  table tr th{
+    text-align: left;
+  }
+  
+  table thead tr th{
+    box-sizing: border-box;
+    border-bottom: 1px solid red;
+  }
+  // table tbody tr{
+  //   border-bottom: 1px solid black;
+  // }
+
+  table tr td , tr th {
+    width: 200px;
+    padding-left: 50px;
+  }
+// }
+
+.pagination {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 60px;
+}
