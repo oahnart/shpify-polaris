@@ -13,7 +13,7 @@ export default function listUser() {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [currentPage, setCurrentPage] = useState(1);
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  const [usersPerPage, setUserPerPage] = useState(3);
+  const [usersPerPage, setUserPerPage] = useState(5);
   // eslint-disable-next-line react-hooks/rules-of-hooks
   useEffect(() => {
     fetchData();

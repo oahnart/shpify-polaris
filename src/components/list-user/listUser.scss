@@ -2,21 +2,22 @@
   table {
     margin: 0 auto;
     padding: 30px 0;
-  }
-  table tr th{
-    text-align: left;
+    border-collapse: collapse;
   }
   
   table thead tr th{
+    text-align: left;
+    height: 80px;
     box-sizing: border-box;
-    border-bottom: 1px solid red;
   }
-  // table tbody tr{
-  //   border-bottom: 1px solid black;
-  // }
+
+  table tbody tr td{
+    height: 60px;
+  }
 
   table tr td , tr th {
     width: 200px;
+    border-bottom: 1px solid #f0f0f0;
     // padding-left: 50px;
   }
 // }

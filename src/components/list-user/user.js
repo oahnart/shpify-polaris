@@ -18,10 +18,10 @@ export const Users = ({ user, loading, toGoogleMap }) => {
             </Button>
           </td>
           <td>
-            <TextStyle>{e.phone}</TextStyle>
+            <TextStyle>{e.email}</TextStyle>
           </td>
           <td>
-            <TextStyle>{e.email}</TextStyle>
+            <TextStyle>{e.phone}</TextStyle>
           </td>
         </tr>
       ))}
